@@ -16,7 +16,7 @@
 				}
                 $i = 1;
 				foreach($row as $item) {
-					printf('<li><a href="%s'.'.html'.'">%s</a></li>',$item['menu_text'],$item['title']);
+					echo '<li><a href="'.$item['menu_text'].'.html'.'">'.$item['title'].'</a></li>';
 				
 					if($i != count($row)) {
 						echo "";
